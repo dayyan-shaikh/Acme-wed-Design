@@ -11,9 +11,7 @@ body {
   margin: auto;
   overflow: hidden;
 }
-.cont-h1 {
-  color: aqua;
-}
+
 ul {
   margin: 0;
   padding: 0;
@@ -64,7 +62,7 @@ header nav {
   margin-top: 10px;
 }
 
-header .highlight,
+.highlight,
 header .current a {
   color: #e8491d;
   font-weight: bold;
@@ -135,7 +133,7 @@ header a:hover {
 
 footer{
     padding:20px;
-    margin-top:20px;
+    margin-top:52px;
     color:#ffffff;
     background-color:#e8491d;
     text-align:center;
