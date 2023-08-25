@@ -96,7 +96,7 @@ header a:hover{
 }
 
 #newsletter{
-    padding:15px;
+    padding: 15px;
     color:#ffffff;
     background:#35424a;
 
@@ -130,12 +130,12 @@ header a:hover{
 }
 
 #boxes .box img{
-    width:100px;
+    width:150px;
   }
 
 footer{
     padding:20px;
-    margin-top:20px;
+    margin-top:95px;
     color:#ffffff;
     background-color:#e8491d;
     text-align:center;
@@ -164,7 +164,6 @@ article.main-col{
 }
 
 
-/*media queries*/
 @media(max-width:768px){
     header#branding,
     header nav,
@@ -172,14 +171,14 @@ article.main-col{
     #newsletter h1,
     #newsletter form,
     #boxes .box,
-    article#main-col,
-    aside#sidebar{
+    article#main-col
+
+    
+aside#sidebar{
       float:none;
       text-align:center;
       width:100%;
     }
-    display:none;
-  }
   
   header{
     padding-bottom:20px;
@@ -197,3 +196,28 @@ article.main-col{
     width:100%;
     margin-bottom:5px;
   }
+
+    aside#sidebar{
+      float:none;
+      text-align:center;
+      width:100%;
+    }
+
+  
+  header{
+    padding-bottom:20px;
+  }
+  #showcase h1{
+    margin-top:40px;
+  }
+  
+  #newsletter button, .quote buttom{
+    display:block;
+    width:100%;
+  }
+  
+  #newsletter form input[type="email"],.quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+}
